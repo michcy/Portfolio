@@ -13,7 +13,7 @@ export default function AboutMe() {
                         Schülerin der 2.Klasse an der <span className="text-primary">IMS</span> in der <span className="text-primary">Kantonschule Hottingen</span>. In meiner Freizeit zeichne ich
                         gerne, höre Musik und programmiere.
                     </p>
-                    <Link href="https://github.com/Miche69"
+                    <Link href="https://github.com/Michcy"
                           className="bg-primary shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] ease-out hover:translate-y-1 transition-all p-4 w-fit flex gap-4 text-secondary rounded-xl"
                     >
                         <img src="./logo-github.svg" alt="Github Project" className="invert w-5 h-5"/>

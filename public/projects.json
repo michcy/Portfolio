@@ -21,7 +21,7 @@
             "icon": "./base-converter-icon.png",
             "thumbnail": "./base-converter.png",
             "liveUrl": "https://base-converter-pearl.vercel.app/",
-            "githubUrl": "https://github.com/Miche69/BaseConverter",
+            "githubUrl": "https://github.com/Michcy/BaseConverter",
             "description": "Eine Webseite, wo man zum Beispiel eine Dezimalzahl zu einer Binärzahl umwandelt.",
             "status": "Im Entwicklung",
             "tags": [
@@ -35,8 +35,8 @@
             "name": "AntiShorts",
             "icon": "./antishorts-icon.png",
             "thumbnail": "https://placehold.co/900x300",
-            "liveUrl": "https://github.com/Miche69/AntiShorts",
-            "githubUrl": "https://github.com/Miche69/AntiShorts",
+            "liveUrl": "https://github.com/Michcy/AntiShorts",
+            "githubUrl": "https://github.com/Michcy/AntiShorts",
             "description": "Eine Chrome Extension, die YouTube Shorts von der Suche, Homepage und Accounts ausblendet",
             "status": "Im Entwicklung",
             "tags": [
@@ -52,7 +52,7 @@
             "icon": "./vite.svg",
             "thumbnail": "./shopping-app.png",
             "liveUrl": "https://shopping-app-three-beige.vercel.app/",
-            "githubUrl": "https://github.com/Miche69/ShoppingApp",
+            "githubUrl": "https://github.com/Michcy/ShoppingApp",
             "description": "Eine Shopping Webseite, die mit React erstellt wurde.",
             "status": "Fertig",
             "tags": [
