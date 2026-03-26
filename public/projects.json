@@ -7,7 +7,7 @@
             "thumbnail": "./sbb-lore.png",
             "liveUrl": "https://sbb-lore.vercel.app/",
             "githubUrl": "https://github.com/IM23a-braendlim/SBB_Lore",
-            "description": "Eine Webseite über die SBB",
+            "description": "Eine Webseite über die Geschichte der SBB.",
             "status": "Fertig",
             "tags": [
                 "HTML",
@@ -22,7 +22,7 @@
             "thumbnail": "./base-converter.png",
             "liveUrl": "https://base-converter-pearl.vercel.app/",
             "githubUrl": "https://github.com/Michcy/BaseConverter",
-            "description": "Eine Webseite, wo man zum Beispiel eine Dezimalzahl zu einer Binärzahl umwandelt.",
+            "description": "Eine Webseite, auf der man Zahlen zwischen Dezimal-, Binär-, Oktal- und Hexadezimalsystemen umwandeln kann.",
             "status": "Im Entwicklung",
             "tags": [
                 "HTML",
@@ -37,7 +37,7 @@
             "thumbnail": "https://placehold.co/900x300",
             "liveUrl": "https://github.com/Michcy/AntiShorts",
             "githubUrl": "https://github.com/Michcy/AntiShorts",
-            "description": "Eine Chrome Extension, die YouTube Shorts von der Suche, Homepage und Accounts ausblendet",
+            "description": "Eine Chrome-Extension, die YouTube Shorts in Suche, Homepage und Accounts ausblendet",
             "status": "Im Entwicklung",
             "tags": [
                 "HTML",
@@ -53,7 +53,7 @@
             "thumbnail": "./shopping-app.png",
             "liveUrl": "https://shopping-app-three-beige.vercel.app/",
             "githubUrl": "https://github.com/Michcy/ShoppingApp",
-            "description": "Eine Shopping Webseite, die mit React erstellt wurde.",
+            "description": "Eine Shopping-Webseite, die mit React erstellt wurde.",
             "status": "Fertig",
             "tags": [
                 "React",
