@@ -5,7 +5,7 @@ export default function AboutMe() {
         <div id="aboutMe" className="bg-black sm:p-10 p-5 text-secondary">
             <h1 className="text-7xl uppercase font-druk sm:pt-12 pb-12 pt-20"><span
                 className="font-bebasneue uppercase text-[76px]">ü</span>ber mich</h1>
-            <div className="flex items-center flex-col-reverse lg:flex-row lg:gap-4 gap-10 justify-center ">
+            <div className="flex items-center flex-col-reverse lg:flex-row lg:gap-4 gap-10 justify-center">
                 <div
                     className="flex flex-col gap-7 lg:w-1/2 font-josefin w-full bg-secondary text-black border-primary border-2 sm:p-10 p-7 rounded-xl">
                     <p className="sm:text-lg text-md">
