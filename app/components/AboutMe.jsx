@@ -12,7 +12,7 @@ export default function AboutMe() {
                         Hallo, ich bin <span className="text-primary"> Michelle Brändli</span>, bin 18 Jahre alt und
                         wohne in der Schweiz. Zurzeit bin ich eine
                         Schülerin der 2.Klasse an der <span className="text-primary">IMS</span> in der <span
-                        className="text-primary">Kantonschule Hottingen</span>. In meiner Freizeit zeichne ich
+                        className="text-primary ">Kantonschule Hottingen</span>. In meiner Freizeit zeichne ich
                         gerne, höre Musik und programmiere.
                     </p>
                     <Link href="https://github.com/Michcy"
@@ -22,12 +22,8 @@ export default function AboutMe() {
                         GitHub Profile
                     </Link>
                 </div>
-                <img className="flex lg:w-1/2  w-full justify-center items-center" src="./aboutMe.jpg"
+                <img className="flex lg:w-1/2 size-115 object-contain  w-full justify-center items-center" src="./portrait.png"
                      alt="image of myself and my drawings"/>
-            </div>
-            <div className="pt-10 pb-10">
-                <img src="./Skizze.jpg" alt="Placeholder für eine Animation"
-                     className="w-full aspect-video object-cover"/>
             </div>
         </div>
     )

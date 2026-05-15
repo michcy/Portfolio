@@ -44,10 +44,10 @@ export default function ProjectNavBar(props) {
              }}
         >
             <div
-                className="flex flex-wrap gap-3 visible:hover:bg-transparent hover:bg-zinc-400 cursor-pointer rounded-2xl sm:p-3 p-2 ">
-                <img src={props.project.icon} alt={props.project.name} className="lg:w-5 lg:h-5 w-4 h-4"/>
-                <p className="lg:text-base text-sm">{props.project.name}</p>
-                <img src="./close-outline.svg" className="md:block hidden w-5 h-5" alt="Close Modal"/>
+                className="flex gap-3 visible:hover:bg-transparent hover:bg-zinc-400 cursor-pointer rounded-2xl p-[clamp(0.4rem,1vw,0.75rem)] ">
+                <img src={props.project.icon} alt={props.project.name} className="size-[clamp(0.8rem,1.5vw,1.25rem)] shrink-0"/>
+                <p className="text-[clamp(0.6rem,1.5vw,1rem)] whitespace-nowrap">{props.project.name}</p>
+                <img src="./close-outline.svg" className="size-[clamp(0.8rem,1.5vw,1.25rem)] shrink-0" alt="Close Modal"/>
             </div>
         </nav>
     );

@@ -23,7 +23,7 @@ export default function Projects() {
 
     return (
         <div id="projects"
-             className="projects-section bg-primary sm:p-10 sm:pb-15 pb-15 p-5 text-secondary flex flex-col">
+             className="w-full bg-primary sm:p-10 sm:pb-15 pb-15 p-5 text-secondary flex flex-col">
             <h2 className="font-druk uppercase text-7xl pb-12 sm:pt-12 pt-20">Projekte</h2>
             <div className="bg-zinc-200 font-josefin rounded-xl flex flex-col text-black">
                 <div className="flex pr-5 gap-2 p-4">
@@ -31,11 +31,13 @@ export default function Projects() {
                     <div className="bg-yellow-500 w-3 h-3 rounded-full"></div>
                     <div className="bg-green-500 w-3 h-3 rounded-full"></div>
                 </div>
-                <div className="flex flex-col bg-secondary">
-                    <div className="sm:flex hidden bg-zinc-300 gap-0.25 pt-0.5">
+                <div className="flex flex-col  bg-secondary overflow-hidden">
+                    <div className="hidden scrollbar-hide sm:flex bg-zinc-300 justify-start overflow-x-auto items-start pt-0.5">
+                        <div className="flex flex-nowrap gap-0.25">
                         {data.projects && data.projects.map((project) => (
                             <ProjectNavBar key={project.id} project={project}/>
                         ))}
+                        </div>
                     </div>
                     {data.projects && data.projects.map((project) => (
                         <Project key={`${project.id}-${project.name}`} project={project}/>

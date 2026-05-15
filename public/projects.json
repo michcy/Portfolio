@@ -8,7 +8,6 @@
             "liveUrl": "https://sbb-lore.vercel.app/",
             "githubUrl": "https://github.com/IM23a-braendlim/SBB_Lore",
             "description": "Eine Webseite über die Geschichte der SBB.",
-            "status": "Fertig",
             "tags": [
                 "HTML",
                 "CSS",
@@ -23,7 +22,6 @@
             "liveUrl": "https://base-converter-pearl.vercel.app/",
             "githubUrl": "https://github.com/Michcy/BaseConverter",
             "description": "Eine Webseite, auf der man Zahlen zwischen Dezimal-, Binär-, Oktal- und Hexadezimalsystemen umwandeln kann.",
-            "status": "Im Entwicklung",
             "tags": [
                 "HTML",
                 "CSS",
@@ -34,11 +32,10 @@
             "id": 3,
             "name": "AntiShorts",
             "icon": "./antishorts-icon.png",
-            "thumbnail": "https://placehold.co/900x300",
+            "thumbnail": "./antishorts.png",
             "liveUrl": "https://github.com/Michcy/AntiShorts",
             "githubUrl": "https://github.com/Michcy/AntiShorts",
             "description": "Eine Chrome-Extension, die YouTube Shorts in Suche, Homepage und Accounts ausblendet",
-            "status": "Im Entwicklung",
             "tags": [
                 "HTML",
                 "CSS",
@@ -54,11 +51,27 @@
             "liveUrl": "https://shopping-app-three-beige.vercel.app/",
             "githubUrl": "https://github.com/Michcy/ShoppingApp",
             "description": "Eine Shopping-Webseite, die mit React erstellt wurde.",
-            "status": "Fertig",
             "tags": [
                 "React",
                 "JavaScript",
                 "TailwindCSS"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Would-you-rather",
+            "icon": "./would-you-rather-icon.png",
+            "thumbnail": "./would-you-rather.png",
+            "liveUrl": "https://github.com/im24b-antonyd/would-you-rather",
+            "githubUrl": "https://github.com/im24b-antonyd/would-you-rather",
+            "description": "Eine Webseite, auf der man zwischen zwei Optionen wählen muss.",
+            "tags": [
+                "React",
+                "JavaScript",
+                "TailwindCSS",
+                "Java",
+                "Spring Boot",
+                "PostgreSQL"
             ]
         }
     ]

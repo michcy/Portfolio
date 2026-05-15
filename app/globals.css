@@ -2,10 +2,18 @@
 
 @custom-variant visible (&:where(.visible, .visible *));
 
-
 @font-face {
     font-family: "Druk Text Wide Su Trial";
     src: url("./assets/font/Druk-Bold-Trial.otf");
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
 }
 
 @font-face {
