@@ -55,7 +55,7 @@ export default function Skills() {
                 </div>
             </div>
 
-            <h2 className="font-druk sm:text-7xl sm:p-10 p-5 text-6xl uppercase pt-12 pb-12">Sprachkenntnisse</h2>
+            <h2 className="font-druk sm:text-7xl sm:p-10 p-5 text-5xl uppercase pt-12 pb-12">Sprachkenntnisse</h2>
             <div className="flex sm:p-10 p-5 flex-col gap-4">
                 {data.languages && data.languages.map((language) => (
                     <Language key={`${language.id}-${language.name}`} language={language}/>

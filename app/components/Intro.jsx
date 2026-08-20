@@ -12,11 +12,11 @@ export default function Intro() {
     return (
         <div id="intro"
              className="intro-section bg-primary text-secondary flex items-center justify-center flex-col h-screen">
-            <div className="flex items-center justify-center flex-1 flex-col">
+            <div className="flex items-center flex-wrap justify-center flex-1 flex-col">
                 <div>
-                    <h1 className="font-druk text-center uppercase text-9xl lg:text-[150px]">Michelle Br<span className="uppercase text-center font-bebasneue text-[135px] lg:text-[159px]">ä</span>ndli</h1>
+                    <h1 className="font-druk text-center uppercase text-[clamp(7.75rem,calc(8vw+1rem),9.375rem)]">Michelle Br<span className="uppercase text-center font-bebasneue text-[clamp(8.1875rem,calc(8vw+1.5rem),159px)]">ä</span>ndli</h1>
                 </div>
-                <p className="font-josefin text-3xl">Front-End Entwickler</p>
+                <p className="flex justify-center items-center font-josefin text-center text-3xl">Front-End Entwickler</p>
             </div>
             <p className="text-5xl p-2 cursor-pointer animate-bounce"
                onClick={() => scrollToNextSection()}

@@ -19,7 +19,7 @@ export default function Project(props) {
                 <img src={props.project.thumbnail} alt={props.project.name}
                      className="w-full aspect-video rounded-xl hover:scale-101 transition duration-500 object-cover object-top"/>
             </Link>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center flex-wrap gap-4">
                 {props.project.tags && props.project.tags.map((tag) => (
                     <p key={`${props.project.name}_${tag}`}
                        className="bg-black text-white p-2 text-xs rounded-2xl"
