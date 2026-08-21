@@ -17,8 +17,8 @@ export default function Skills() {
         }
     }
 
-    const rightSkills = data.skills ? data.skills.filter((_, index) => index < 4) : [];
-    const leftSkills = data.skills ? data.skills.filter((_, index) => index >= 4) : [];
+    const rightSkills = data.skills ? data.skills.filter((_, index) => index < data.skills.length / 2) : [];
+    const leftSkills = data.skills ? data.skills.filter((_, index) => index >= data.skills.length / 2) : [];
 
     useEffect(() => {
         fetchData();

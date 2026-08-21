@@ -11,7 +11,7 @@ export default function AboutMe() {
                     <p className="sm:text-lg text-md">
                         Hallo, ich bin <span className="text-primary"> Michelle Brändli</span>, bin 18 Jahre alt und
                         wohne in der Schweiz. Zurzeit bin ich eine
-                        Schülerin der 2.Klasse an der <span className="text-primary">IMS</span> in der <span
+                        Schülerin der 3.Klasse an der <span className="text-primary">IMS</span> in der <span
                         className="text-primary ">Kantonschule Hottingen</span>. In meiner Freizeit zeichne ich
                         gerne, höre Musik und programmiere.
                     </p>

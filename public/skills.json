@@ -39,6 +39,11 @@
             "id": 8,
             "name": "NoSQL",
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+        },
+        {
+            "id": 9,
+            "name": "Java",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
         }
     ],
     "languages": [
@@ -61,5 +66,4 @@
             "icon": "french.svg"
         }
     ]
-
 }
